@@ -1,0 +1,718 @@
+{
+  "collections": {
+    "message": "Colecciones",
+    "description": "Name of the collections."
+  },
+  "settings": {
+    "message": "Configuración",
+    "description": "Name of the settings."
+  },
+  "importNoun": {
+    "message": "Importar",
+    "description": "Name of the import."
+  },
+  "contactUsNoun": {
+    "message": "Contáctanos",
+    "description": "Name of the contact us."
+  },
+  "support": {
+    "message": "Soporte al Usuario",
+    "description": "Name of the support."
+  },
+  "helpCenter": {
+    "message": "Centro de Ayuda",
+    "description": "Name of the help center."
+  },
+  "autoBackupNoun": {
+    "message": "Copia de Seguridad Automática",
+    "description": "Name of the autobackup."
+  },
+  "newButtonNoun": {
+    "message": "Nuevo",
+    "description": "Name of the new button."
+  },
+  "generalSettingsNoun": {
+    "message": "General",
+    "description": "Name of the general settings."
+  },
+  "exportingYourData": {
+    "message": "Exportando tus datos...",
+    "description": "exporting-your-data"
+  },
+  "generalSettingsDescription": {
+    "message": "Configuración general de la aplicación",
+    "description": "Description of the general settings."
+  },
+  "autoLaunch": {
+    "message": "Mostrar la página de Harbor cada vez que se inicia el navegador",
+    "description": "Name of the auto launch."
+  },
+  "autoRemoveDuplicates": {
+    "message": "Eliminar automáticamente las pestañas duplicadas",
+    "description": "Name of the auto remove duplicates."
+  },
+  "autoBackupDescription": {
+    "message": "Guarda automáticamente tus colecciones en un archivo para facilitar la copia de seguridad y recuperación.",
+    "description": "Description of the auto backup."
+  },
+  "autoBackupEnable": {
+    "message": "Activar",
+    "description": "Name of the auto backup enable."
+  },
+  "backupFile": {
+    "message": "Archivo de respaldo",
+    "description": "Name of the backup file."
+  },
+  "backupFrequency": {
+    "message": "Frecuencia de respaldo",
+    "description": "backup-frequency"
+  },
+  "every": {
+    "message": "Cada",
+    "description": "every"
+  },
+  "enableAutoBackupToSelectBackupFile": {
+    "message": "Activa la copia de seguridad automática para seleccionar un archivo de respaldo",
+    "description": "Description of the enable auto backup to select a backup file."
+  },
+  "allowFileAccessForAutoBackup": {
+    "message": "Permitir acceso a archivos para copia de seguridad automática",
+    "description": "Name of the allow file access for auto-backup."
+  },
+  "createAJsonFileInYourLocalFileFolder": {
+    "message": "Crear un archivo .json en tu carpeta local",
+    "description": "create-a-json-file-in-your-local-file-folder"
+  },
+  "autoBackupWillSaveYourDataToThisFile": {
+    "message": "La copia de seguridad automática guardará tus datos en este archivo",
+    "description": "auto-backup-will-save-your-data-to-this-file"
+  },
+  "createFile": {
+    "message": "Crear archivo",
+    "description": "create-file"
+  },
+  "exportData": {
+    "message": "Exportar datos",
+    "description": "export-data"
+  },
+  "lockWhenPinned": {
+    "message": "Bloquear colección cuando está fijada",
+    "description": "lock-when-pinned"
+  },
+  "closeTabsWhenSendingToCollections": {
+    "message": "Cerrar pestañas al enviar a colecciones",
+    "description": "close-tabs-when-sending-to-collections"
+  },
+  "whenRestoringTabsRemoveTabItemsFromTheCurrentHarborCollection": {
+    "message": "Al restaurar pestañas, eliminar elementos de la colección actual de Harbor",
+    "description": "when-restoring-tabs-remove-tab-items-from-the-current-harbor-collection"
+  },
+  "openMainPageWhenSendingSingleTab": {
+    "message": "Abrir página principal al enviar una pestaña a la colección",
+    "description": "open-main-page-when-sending-single-tab"
+  },
+  "deleteAllCollections": {
+    "message": "Eliminar todas las colecciones",
+    "description": "delete-all-collections"
+  },
+  "areYouSureYouWantToDeleteAllCollectionsThisActionCannotBeUndone": {
+    "message": "¿Estás seguro de que quieres eliminar todas las colecciones? Esta acción no se puede deshacer.",
+    "description": "are-you-sure-you-want-to-delete-all-collections-this-action-cannot-be-undone"
+  },
+  "cancel": {
+    "message": "Cancelar",
+    "description": "cancel"
+  },
+  "delete": {
+    "message": "Eliminar",
+    "description": "delete"
+  },
+  "connectionsSettingsNoun": {
+    "message": "Integraciones",
+    "description": "Name of the connections settings."
+  },
+  "manageYourConnectionsToExternalServices": {
+    "message": "Gestiona tus conexiones con servicios externos",
+    "description": "manage-your-connections-to-external-services"
+  },
+  "restoreAll": {
+    "message": "Restaurar Todo",
+    "description": "restore-all"
+  },
+  "openInNewWindow": {
+    "message": "Abrir en Nueva Ventana",
+    "description": "open-in-new-window"
+  },
+  "rename": {
+    "message": "Renombrar",
+    "description": "rename"
+  },
+  "unpin": {
+    "message": "Desfijar",
+    "description": "unpin"
+  },
+  "pin": {
+    "message": "Fijar",
+    "description": "pin"
+  },
+  "syncToRaindrop": {
+    "message": "Sincronizar con Raindrop",
+    "description": "sync-to-raindrop"
+  },
+  "syncToNotion": {
+    "message": "Sincronizar con Notion",
+    "description": "sync-to-notion"
+  },
+  "newGroup": {
+    "message": "Nuevo Grupo",
+    "description": "new-group"
+  },
+  "groupByAI": {
+    "message": "Agrupar por IA",
+    "description": "group-by-ai"
+  },
+  "groupByDomain": {
+    "message": "Agrupar por Dominio",
+    "description": "group-by-domain"
+  },
+  "ungroup": {
+    "message": "Desagrupar",
+    "description": "ungroup"
+  },
+  "importDialogTitle": {
+    "message": "Diálogo de Importación",
+    "description": "import-dialog-title"
+  },
+  "fromHarbor": {
+    "message": "Desde Harbor",
+    "description": "from-harbor"
+  },
+  "fromRaindrop": {
+    "message": "Desde Raindrop",
+    "description": "from-raindrop"
+  },
+  "openTheOneTabPage": {
+    "message": "Abrir la página de OneTab",
+    "description": "open-the-onetab-page"
+  },
+  "navigateToTheOneTabExtensionInYourBrowser": {
+    "message": "Navega a la extensión OneTab en tu navegador",
+    "description": "navigate-to-the-onetab-extension-in-your-browser"
+  },
+  "exportAndCopyContent": {
+    "message": "Exportar y copiar contenido",
+    "description": "export-and-copy-content"
+  },
+  "clickOnTheExportButtonThenCopyTheExportedContent": {
+    "message": "Haz clic en el botón exportar, luego copia el contenido exportado",
+    "description": "click-on-the-export-button-then-copy-the-exported-content"
+  },
+  "pasteOneTabDataHere": {
+    "message": "Pega los datos de OneTab aquí",
+    "description": "paste-onetab-data-here"
+  },
+  "clickToImport": {
+    "message": "Clic para importar",
+    "description": "click-to-import"
+  },
+  "orDragAndDrop": {
+    "message": "o arrastra y suelta",
+    "description": "or-drag-and-drop"
+  },
+  "jsonFile": {
+    "message": "Archivo JSON",
+    "description": "json-file"
+  },
+  "importFromOneTab": {
+    "message": "Importar desde OneTab",
+    "description": "import-from-onetab"
+  },
+  "importFromHarbor": {
+    "message": "Importar desde Harbor",
+    "description": "import-from-harbor"
+  },
+  "importFromHarborJsonFile": {
+    "message": "Importar desde archivo JSON de Harbor",
+    "description": "import-from-harbor-json-file"
+  },
+  "ungroupTabs": {
+    "message": "Desagrupar Pestañas",
+    "description": "ungroup-tabs"
+  },
+  "deduplicateTabs": {
+    "message": "Eliminar Pestañas Duplicadas",
+    "description": "deduplicate-tabs"
+  },
+  "sendAllTabs": {
+    "message": "Enviar Todas las Pestañas",
+    "description": "send-all-tabs"
+  },
+  "sendGroup": {
+    "message": "Enviar Grupo",
+    "description": "send-group"
+  },
+  "newCollection": {
+    "message": "Nueva Colección",
+    "description": "new-collection"
+  },
+  "displayHarbor": {
+    "message": "Mostrar Panel",
+    "description": "display-harbor"
+  },
+  "ifYouEncounterAnyIssuesPleaseContactGetharborOutlookCom": {
+    "message": "¿Problemas? Contacta a support@sanvalley.studio",
+    "description": "if-you-encounter-any-issues-please-contact-getharbor-outlook-com"
+  },
+  "goProNow": {
+    "message": "Hazte Pro Ahora",
+    "description": "go-pro-now"
+  },
+  "restorePurchase": {
+    "message": "Restaurar Compra",
+    "description": "restore-purchase"
+  },
+  "upgradeToPro": {
+    "message": "Actualizar a Pro",
+    "description": "upgrade-to-pro"
+  },
+  "upgradeToProDescription": {
+    "message": "Crea colecciones ilimitadas y accede a funciones avanzadas (Compartir como sitio web, Agrupar por IA, Sincronizar con Notion, etc).",
+    "description": "upgrade-to-pro-description"
+  },
+  "earlyBird": {
+    "message": "ACCESO ANTICIPADO",
+    "description": "early-bird"
+  },
+  "getTheLifetimeDeal": {
+    "message": "Obtén la oferta de por vida",
+    "description": "get-the-lifetime-deal"
+  },
+  "pricing": {
+    "message": "Precios",
+    "description": "pricing"
+  },
+  "createUpTo": {
+    "message": "Crear hasta",
+    "description": "create-up-to"
+  },
+  "thecollections": {
+    "message": "colecciones",
+    "description": "collections"
+  },
+  "accessBasicTabManagementFeatures": {
+    "message": "Accede a funciones básicas de gestión de pestañas",
+    "description": "access-basic-tab-management-features"
+  },
+  "automaticBackup": {
+    "message": "Copia de seguridad automática",
+    "description": "automatic-backup"
+  },
+  "importAndExportFeatures": {
+    "message": "Funciones de importación y exportación",
+    "description": "import-and-export-features"
+  },
+  "allFreeFeatures": {
+    "message": "Todas las funciones gratuitas",
+    "description": "all-free-features"
+  },
+  "useOnUpTo2Devices": {
+    "message": "Usar en hasta 2 dispositivos",
+    "description": "use-on-up-to-2-devices"
+  },
+  "unlimitedCollectionCreation": {
+    "message": "Creación ilimitada de colecciones",
+    "description": "unlimited-collection-creation"
+  },
+  "unlimitedAIPoweredTabGroupingFeature": {
+    "message": "Función ilimitada de agrupación de pestañas por IA",
+    "description": "unlimited-ai-powered-tab-grouping-feature"
+  },
+  "syncTabsToThirdPartyApps": {
+    "message": "Sincronizar pestañas con aplicaciones de terceros (Notion, Raindrop)",
+    "description": "Sync tabs to third-party apps (Notion, Raindrop)"
+  },
+  "thisCollectionIsEmpty": {
+    "message": "Esta colección está vacía",
+    "description": "this-collection-is-empty"
+  },
+  "dragTabsHereOr": {
+    "message": "Arrastra pestañas aquí. O",
+    "description": "drag-tabs-here-or"
+  },
+  "selectFromSession": {
+    "message": "Seleccionar de la sesión",
+    "description": "select-from-session"
+  },
+  "selectTabs": {
+    "message": "Seleccionar pestañas",
+    "description": "select-tabs"
+  },
+  "selectAll": {
+    "message": "Seleccionar todo",
+    "description": "select-all"
+  },
+  "closeSelectedTabs": {
+    "message": "Cerrar pestañas seleccionadas",
+    "description": "close-selected-tabs"
+  },
+  "confirm": {
+    "message": "Confirmar",
+    "description": "confirm"
+  },
+  "createCollectionsAndTakeControlOfYourBrowserTabs": {
+    "message": "Crea Colecciones y toma el control de tus pestañas del navegador",
+    "description": "create-collections-and-take-control-of-your-browser-tabs"
+  },
+  "firstCollection": {
+    "message": "Primera Colección",
+    "description": "first-collection"
+  },
+  "enterLicenseKey": {
+    "message": "Introducir Clave de Licencia",
+    "description": "enter-license-key"
+  },
+  "pleaseEnterYourLicenseKeyToActivateTheProVersion": {
+    "message": "Por favor, introduce tu clave de licencia para activar la versión Pro.",
+    "description": "please-enter-your-license-key-to-activate-the-pro-version"
+  },
+  "enterYourLicenseKeyHere": {
+    "message": "Introduce tu clave de licencia aquí",
+    "description": "enter-your-license-key-here"
+  },
+  "verify": {
+    "message": "Verificar",
+    "description": "verify"
+  },
+  "activationSuccessful": {
+    "message": "Activación Exitosa",
+    "description": "activation-successful"
+  },
+  "yourLicenseKeyHasBeenSuccessfullyActivated": {
+    "message": "Tu clave de licencia ha sido activada con éxito",
+    "description": "your-license-key-has-been-successfully-activated"
+  },
+  "workspacesDeletedSuccessfully": {
+    "message": "Todos los espacios de trabajo han sido eliminados con éxito"
+  },
+  "failedToDeleteWorkspaces": {
+    "message": "Error al eliminar los espacios de trabajo"
+  },
+  "collectionsDeletedSuccessfully": {
+    "message": "Todas las colecciones han sido eliminadas con éxito"
+  },
+  "failedToDeleteCollections": {
+    "message": "Error al eliminar las colecciones"
+  },
+  "howToConnectToNotion": {
+    "message": "Cómo conectar con Notion",
+    "description": "how-to-connect-to-notion"
+  },
+  "howToConnectToRaindrop": {
+    "message": "Cómo conectar con Raindrop",
+    "description": "how-to-connect-to-raindrop"
+  },
+  "goToRaindropIntegrations": {
+    "message": "Ir a",
+    "description": "Text before Raindrop integrations link"
+  },
+  "createNewApp": {
+    "message": "Haz clic en \"Crear nueva aplicación\"",
+    "description": "Step to create new Raindrop app"
+  },
+  "fillAppDetails": {
+    "message": "Completa los detalles de la aplicación y créala",
+    "description": "Step to fill in Raindrop app details"
+  },
+  "findTestToken": {
+    "message": "Encuentra el \"Token de prueba\" en tu aplicación recién creada",
+    "description": "Step to find Raindrop test token"
+  },
+  "copyAndPasteToken": {
+    "message": "Copia el token y pégalo aquí",
+    "description": "Step to copy and paste Raindrop token"
+  },
+  "goToNotionIntegrations": {
+    "message": "Ir a",
+    "description": "Text before Notion integrations link"
+  },
+  "createNewIntegration": {
+    "message": "Crear una nueva Integración Interna",
+    "description": "Step to create new Notion integration"
+  },
+  "copyInternalIntegrationSecret": {
+    "message": "Copiar el 'Secreto de Integración Interna'",
+    "description": "Step to copy Notion integration secret"
+  },
+  "createNewDatabase": {
+    "message": "Crear una nueva base de datos en Notion",
+    "description": "Step to create new Notion database"
+  },
+  "shareDatabase": {
+    "message": "Compartir la base de datos con tu integración",
+    "description": "Step to share database with integration"
+  },
+  "openDatabaseFullPage": {
+    "message": "Abrir la base de datos en página completa",
+    "description": "Step to open database in full page"
+  },
+  "copyDatabaseId": {
+    "message": "Copiar el ID de la base de datos desde la URL (es la parte después del nombre del espacio de trabajo y antes del '?')",
+    "description": "Step to copy database ID from URL"
+  },
+  "upgradeToProToContinue": {
+    "message": "Actualiza a Pro para continuar",
+    "description": "upgrade-to-pro-to-continue"
+  },
+  "collapseGroups": {
+    "message": "Contraer Grupos",
+    "description": "collapse-groups"
+  },
+  "expandGroups": {
+    "message": "Expandir Grupos",
+    "description": "expand-groups"
+  },
+  "collectionsLimitReached": {
+    "message": "Límite de colecciones alcanzado. Actualiza a Pro para creación ilimitada.",
+    "description": "Message shown when free user reaches collections limit"
+  },
+  "collectionsLimitReachedForSendThisTab": {
+    "message": "Has alcanzado el límite de colecciones. Obtén colecciones ilimitadas con Pro, o añade esta pestaña a una existente.",
+    "description": "Message shown when free user reaches collections limit"
+  },
+  "tabsGroupedByDomain": {
+    "message": "Pestañas agrupadas por dominio",
+    "description": "Success message shown after grouping tabs by domain"
+  },
+  "tabsGroupedByAI": {
+    "message": "Pestañas agrupadas por IA",
+    "description": "Success message shown after grouping tabs by AI"
+  },
+  "aiGroupingLimitReached": {
+    "message": "Límite de agrupación por IA alcanzado. Actualiza a Pro para uso ilimitado.",
+    "description": "Message shown when free user reaches AI grouping limit"
+  },
+  "raindropAccessTokenNotFound": {
+    "message": "Token de acceso de Raindrop no encontrado. Por favor, ve a configuración para configurar la conexión con Raindrop",
+    "description": "Error message shown when Raindrop access token is not configured"
+  },
+  "notionAccessTokenOrDatabaseNotFound": {
+    "message": "Token de acceso o ID de base de datos de Notion no establecido. Por favor, ve a configuración para configurar la conexión con Notion",
+    "description": "Error message shown when Notion access token or database ID is not configured"
+  },
+  "totalTabs": {
+    "message": "Total: $count$ pestañas",
+    "description": "Total tabs count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "19"
+      }
+    }
+  },
+  "shortcuts": {
+    "message": "Atajos",
+    "description": "shortcuts"
+  },
+  "group_by_ai": {
+    "message": "Agrupar por IA",
+    "description": "group-by-ai"
+  },
+  "open_harbor": {
+    "message": "Abrir Página Principal de Harbor",
+    "description": "open-harbor"
+  },
+  "send_all_tabs_to_harbor": {
+    "message": "Enviar todas las pestañas a Harbor",
+    "description": "send-all-tabs-to-harbor"
+  },
+  "_execute_action": {
+    "message": "Activar Popup(Activar Harbor)",
+    "description": "_execute_action"
+  },
+  "shortcutNotSet": {
+    "message": "No establecido"
+  },
+  "changeShortcutsPrefix": {
+    "message": "Cambiar atajos en la"
+  },
+  "browserExtensionShortcuts": {
+    "message": "página de atajos de extensiones del navegador"
+  },
+  "changeShortcutsSuffix": {
+    "message": "página"
+  },
+  "more": {
+    "message": "Más",
+    "description": "more"
+  },
+  "sendLeftTabs": {
+    "message": "Enviar Pestañas a la Izquierda",
+    "description": "Send all tabs to the left of the current tab"
+  },
+  "sendRightTabs": {
+    "message": "Enviar Pestañas a la Derecha",
+    "description": "Send all tabs to the right of the current tab"
+  },
+  "sendThisTab": {
+    "message": "Enviar Esta Pestaña",
+    "description": "Send the current tab"
+  },
+  "share": {
+    "message": "Compartir",
+    "description": "Share"
+  },
+  "manageLicenseKey": {
+    "message": "Gestionar Clave de Licencia",
+    "description": "Text for the license key management link"
+  },
+  "publishToWeb": {
+    "message": "Publicar en la web",
+    "description": "Title for publish dialog"
+  },
+  "publishedSuccessfully": {
+    "message": "Publicado con Éxito",
+    "description": "Title shown after successful publish"
+  },
+  "hereIsTheWebsiteLink": {
+    "message": "🌍 Aquí está el enlace del sitio web:",
+    "description": "Text shown above the shared URL"
+  },
+  "viewOnlyAccessDescription": {
+    "message": "El acceso de solo lectura está disponible para cualquiera con este enlace, pero los cambios no se sincronizarán después de compartir.",
+    "description": "Description of view-only access"
+  },
+  "viewSite": {
+    "message": "Ver Sitio",
+    "description": "Button text to view the shared site"
+  },
+  "publishing": {
+    "message": "Publicando...",
+    "description": "Text shown while publishing"
+  },
+  "publish": {
+    "message": "Publicar",
+    "description": "Button text to publish"
+  },
+  "yourName": {
+    "message": "Tu Nombre",
+    "description": "Label for name input"
+  },
+  "enterYourName": {
+    "message": "Introduce tu nombre",
+    "description": "Placeholder for name input"
+  },
+  "nameDisplayDescription": {
+    "message": "Este nombre se mostrará como el propietario del contenido compartido",
+    "description": "Description text below name input"
+  },
+  "socialLink": {
+    "message": "Enlace Social",
+    "description": "Label for social link input"
+  },
+  "socialLinkDescription": {
+    "message": "Añade tu perfil de redes sociales para permitir que los visitantes se conecten contigo",
+    "description": "Description text below social link input"
+  },
+  "themeColor": {
+    "message": "Color del Tema",
+    "description": "Label for theme color picker"
+  },
+  "groupNameLanguage": {
+    "message": "Idioma del Nombre del Grupo",
+    "description": "Label for group name language"
+  },
+  "systemLanguage": {
+    "message": "Idioma del Sistema",
+    "description": "Label for system language"
+  },
+  "tryNow": {
+    "message": "Probar Ahora",
+    "description": "Try now"
+  },
+  "configureConnectionsToThirdPartyApps": {
+    "message": "Configurar conexiones con aplicaciones de terceros",
+    "description": "Configure connections to third-party apps"
+  },
+  "configureConnectionsToThirdPartyAppsDescription": {
+    "message": "Puedes sincronizar las pestañas recopiladas con aplicaciones de terceros para almacenamiento permanente",
+    "description": "Configure connections to third-party apps"
+  },
+  "youCanConfigureLaterInSettings": {
+    "message": "Puedes configurarlo más tarde en la página de configuración",
+    "description": "You can configure later in settings"
+  },
+  "next": {
+    "message": "Siguiente",
+    "description": "Next"
+  },
+  "pinInToolbar": {
+    "message": "Fijar en la Barra de Herramientas",
+    "description": "Pin in Toolbar"
+  },
+  "yourPopupPowerhouse": {
+    "message": "Tu Centro de Control Emergente",
+    "description": "Your Popup Powerhouse"
+  },
+  "smartTabGroupManagement": {
+    "message": "Gestión Inteligente de Grupos de Pestañas, impulsada por IA",
+    "description": "Feature description for AI-powered tab management"
+  },
+  "deduplicateTabsInWindow": {
+    "message": "Eliminar pestañas duplicadas en la ventana actual",
+    "description": "Feature description for tab deduplication"
+  },
+  "saveTabsToCollections": {
+    "message": "Guardar pestañas en colecciones instantáneamente",
+    "description": "Feature description for saving tabs to collections"
+  },
+  "speedUpWithShortcuts": {
+    "message": "Acelera con Atajos",
+    "description": "Speed Up with Shortcuts"
+  },
+  "moreFeatures": {
+    "message": "Más funciones",
+    "description": "More features"
+  },
+  "everythingInStarterPlus": {
+    "message": "Todo lo incluido en Starter, más:",
+    "description": "Everything in Starter"
+  },
+  "includes": {
+    "message": "Incluye:",
+    "description": "Includes"
+  },
+  "shareYourCollectionsWithTheWorld": {
+    "message": "Comparte tus colecciones y pestañas con el mundo",
+    "description": "Share your collections with the world"
+  },
+  "exploreTextOnboarding": {
+    "message": "Explorar",
+    "description": "Explore"
+  },
+  "sendAllTabsIncludingPinned": {
+    "message": "Incluir las fijadas al enviar todas las pestañas a Harbor",
+    "description": "Save all tabs including pinned"
+  },
+  "sendAllTabsIncludingExtensionPages": {
+    "message": "Incluir páginas de extensiones al enviar todas las pestañas a Harbor",
+    "description": "Save all tabs including pinned"
+  },
+  "sendAllTabsIncludingGroupedTabs": {
+    "message": "Incluir pestañas agrupadas al enviar todas las pestañas a Harbor",
+    "description": "Send all tabs including grouped tabs"
+  },
+  "aiGroupingAttemptsAvailablePerDay": {
+    "message": "$count$ intentos de Agrupación por IA disponibles por Día",
+    "description": "AI grouping attempts available per day",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "groupTabsByAI": {
+    "message": "Agrupar pestañas por IA",
+    "description": "Group tabs by AI"
+  }
+}

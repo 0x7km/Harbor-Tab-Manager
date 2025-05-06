@@ -1,0 +1,717 @@
+{
+  "collections": {
+    "message": "Collections",
+    "description": "Name of the collections."
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "Name of the settings."
+  },
+  "importNoun": {
+    "message": "Import",
+    "description": "Name of the import."
+  },
+  "contactUsNoun": {
+    "message": "Contact us",
+    "description": "Name of the contact us."
+  },
+  "support": {
+    "message": "User Support",
+    "description": "Name of the support."
+  },
+  "helpCenter": {
+    "message": "Help Center",
+    "description": "Name of the help center."
+  },
+  "autoBackupNoun": {
+    "message": "Auto Backup",
+    "description": "Name of the autobackup."
+  },
+  "newButtonNoun": {
+    "message": "New",
+    "description": "Name of the new button."
+  },
+  "generalSettingsNoun": {
+    "message": "General",
+    "description": "Name of the general settings."
+  },
+  "exportingYourData": {
+    "message": "Exporting your data...",
+    "description": "exporting-your-data"
+  },
+  "generalSettingsDescription": {
+    "message": "General settings for the app",
+    "description": "Description of the general settings."
+  },
+  "autoLaunch": {
+    "message": "Show Harbor page every time the browser launches",
+    "description": "Name of the auto launch."
+  },
+  "autoRemoveDuplicates": {
+    "message": "Automatically remove duplicate tabs",
+    "description": "Name of the auto remove duplicates."
+  },
+  "autoBackupDescription": {
+    "message": "Automatically saves your collections to a file for easy backup and recovery.",
+    "description": "Description of the auto backup."
+  },
+  "autoBackupEnable": {
+    "message": "Enable",
+    "description": "Name of the auto backup enable."
+  },
+  "backupFile": {
+    "message": "Backup file",
+    "description": "Name of the backup file."
+  },
+  "backupFrequency": {
+    "message": "Backup frequency",
+    "description": "backup-frequency"
+  },
+  "every": {
+    "message": "Every",
+    "description": "every"
+  },
+  "enableAutoBackupToSelectBackupFile": {
+    "message": "Enable auto backup to select a backup file",
+    "description": "Description of the enable auto backup to select a backup file."
+  },
+  "allowFileAccessForAutoBackup": {
+    "message": "Allow file access for auto-backup",
+    "description": "Name of the allow file access for auto-backup."
+  },
+  "createAJsonFileInYourLocalFileFolder": {
+    "message": "Create a .json file in your local file folder",
+    "description": "create-a-json-file-in-your-local-file-folder"
+  },
+  "autoBackupWillSaveYourDataToThisFile": {
+    "message": "Auto backup will save your data to this file",
+    "description": "auto-backup-will-save-your-data-to-this-file"
+  },
+  "createFile": {
+    "message": "Create file",
+    "description": "create-file"
+  },
+  "exportData": {
+    "message": "Export data",
+    "description": "export-data"
+  },
+  "lockWhenPinned": {
+    "message": "Lock collection when pinned",
+    "description": "lock-when-pinned"
+  },
+  "closeTabsWhenSendingToCollections": {
+    "message": "Close tabs when sending to collections",
+    "description": "close-tabs-when-sending-to-collections"
+  },
+  "whenRestoringTabsRemoveTabItemsFromTheCurrentHarborCollection": {
+    "message": "When restoring tabs, remove tab items from the current Harbor collection",
+    "description": "when-restoring-tabs-remove-tab-items-from-the-current-harbor-collection"
+  },
+  "openMainPageWhenSendingSingleTab": {
+    "message": "Open main page when sending single tab to collection",
+    "description": "open-main-page-when-sending-single-tab"
+  },
+  "deleteAllCollections": {
+    "message": "Delete all collections",
+    "description": "delete-all-collections"
+  },
+  "areYouSureYouWantToDeleteAllCollectionsThisActionCannotBeUndone": {
+    "message": "Are you sure you want to delete all collections? This action cannot be undone.",
+    "description": "are-you-sure-you-want-to-delete-all-collections-this-action-cannot-be-undone"
+  },
+  "cancel": {
+    "message": "Cancel",
+    "description": "cancel"
+  },
+  "delete": {
+    "message": "Delete",
+    "description": "delete"
+  },
+  "connectionsSettingsNoun": {
+    "message": "Integrations",
+    "description": "Name of the connections settings."
+  },
+  "manageYourConnectionsToExternalServices": {
+    "message": "Manage your connections to external services",
+    "description": "manage-your-connections-to-external-services"
+  },
+  "restoreAll": {
+    "message": "Restore All",
+    "description": "restore-all"
+  },
+  "openInNewWindow": {
+    "message": "Open In New Window",
+    "description": "open-in-new-window"
+  },
+  "rename": {
+    "message": "Rename",
+    "description": "rename"
+  },
+  "unpin": {
+    "message": "Unpin",
+    "description": "unpin"
+  },
+  "pin": {
+    "message": "Pin",
+    "description": "pin"
+  },
+  "syncToRaindrop": {
+    "message": "Sync to Raindrop",
+    "description": "sync-to-raindrop"
+  },
+  "syncToNotion": {
+    "message": "Sync to Notion",
+    "description": "sync-to-notion"
+  },
+  "newGroup": {
+    "message": "New Group",
+    "description": "new-group"
+  },
+  "groupByAI": {
+    "message": "Group by AI",
+    "description": "group-by-ai"
+  },
+  "groupByDomain": {
+    "message": "Group by Domain",
+    "description": "group-by-domain"
+  },
+  "ungroup": {
+    "message": "Ungroup",
+    "description": "ungroup"
+  },
+  "importDialogTitle": {
+    "message": "Import Dialog",
+    "description": "import-dialog-title"
+  },
+  "fromHarbor": {
+    "message": "From Harbor",
+    "description": "from-harbor"
+  },
+  "fromRaindrop": {
+    "message": "From Raindrop",
+    "description": "from-raindrop"
+  },
+  "openTheOneTabPage": {
+    "message": "Open the OneTab page",
+    "description": "open-the-onetab-page"
+  },
+  "navigateToTheOneTabExtensionInYourBrowser": {
+    "message": "Navigate to the OneTab extension in your browser",
+    "description": "navigate-to-the-onetab-extension-in-your-browser"
+  },
+  "exportAndCopyContent": {
+    "message": "Export and copy content",
+    "description": "export-and-copy-content"
+  },
+  "clickOnTheExportButtonThenCopyTheExportedContent": {
+    "message": "Click on the export button, then copy the exported content",
+    "description": "click-on-the-export-button-then-copy-the-exported-content"
+  },
+  "pasteOneTabDataHere": {
+    "message": "Paste OneTab data here",
+    "description": "paste-onetab-data-here"
+  },
+  "clickToImport": {
+    "message": "Click to import",
+    "description": "click-to-import"
+  },
+  "orDragAndDrop": {
+    "message": "or drag and drop",
+    "description": "or-drag-and-drop"
+  },
+  "jsonFile": {
+    "message": "JSON file",
+    "description": "json-file"
+  },
+  "importFromOneTab": {
+    "message": "Import from OneTab",
+    "description": "import-from-onetab"
+  },
+  "importFromHarbor": {
+    "message": "Import from Harbor",
+    "description": "import-from-harbor"
+  },
+  "importFromHarborJsonFile": {
+    "message": "Import from Harbor JSON file",
+    "description": "import-from-harbor-json-file"
+  },
+  "ungroupTabs": {
+    "message": "Ungroup Tabs",
+    "description": "ungroup-tabs"
+  },
+  "deduplicateTabs": {
+    "message": "Deduplicate Tabs",
+    "description": "deduplicate-tabs"
+  },
+  "sendAllTabs": {
+    "message": "Send All Tabs",
+    "description": "send-all-tabs"
+  },
+  "sendGroup": {
+    "message": "Send Group",
+    "description": "send-group"
+  },
+  "newCollection": {
+    "message": "New Collection",
+    "description": "new-collection"
+  },
+  "displayHarbor": {
+    "message": "Display Dashboard",
+    "description": "display-harbor"
+  },
+  "ifYouEncounterAnyIssuesPleaseContactGetharborOutlookCom": {
+    "message": "Issues? Contact support@sanvalley.studio",
+    "description": "if-you-encounter-any-issues-please-contact-getharbor-outlook-com"
+  },
+  "goProNow": {
+    "message": "Go Pro Now",
+    "description": "go-pro-now"
+  },
+  "restorePurchase": {
+    "message": "Restore Purchase",
+    "description": "restore-purchase"
+  },
+  "upgradeToPro": {
+    "message": "Upgrade to Pro",
+    "description": "upgrade-to-pro"
+  },
+  "upgradeToProDescription": {
+    "message": "Create unlimited collections and access advanced features (Share as website, Group By AI, Sync to Notion, etc).",
+    "description": "upgrade-to-pro-description"
+  },
+  "earlyBird": {
+    "message": "EARLY BIRD",
+    "description": "early-bird"
+  },
+  "getTheLifetimeDeal": {
+    "message": "Get the lifetime deal",
+    "description": "get-the-lifetime-deal"
+  },
+  "pricing": {
+    "message": "Pricing",
+    "description": "pricing"
+  },
+  "createUpTo": {
+    "message": "Create up to",
+    "description": "create-up-to"
+  },
+  "thecollections": {
+    "message": "collections",
+    "description": "collections"
+  },
+  "accessBasicTabManagementFeatures": {
+    "message": "Access basic tab management features",
+    "description": "access-basic-tab-management-features"
+  },
+  "automaticBackup": {
+    "message": "Automatic backup",
+    "description": "automatic-backup"
+  },
+  "importAndExportFeatures": {
+    "message": "Import and export features",
+    "description": "import-and-export-features"
+  },
+  "allFreeFeatures": {
+    "message": "All Free features",
+    "description": "all-free-features"
+  },
+  "useOnUpTo2Devices": {
+    "message": "Use on up to 2 devices",
+    "description": "use-on-up-to-2-devices"
+  },
+  "unlimitedCollectionCreation": {
+    "message": "Unlimited Collection creation",
+    "description": "unlimited-collection-creation"
+  },
+  "unlimitedAIPoweredTabGroupingFeature": {
+    "message": "Unlimited AI-powered tab grouping feature",
+    "description": "unlimited-ai-powered-tab-grouping-feature"
+  },
+  "syncTabsToThirdPartyApps": {
+    "message": "Sync tabs to third-party apps (Notion, Raindrop)"
+  },
+  "thisCollectionIsEmpty": {
+    "message": "This collection is empty",
+    "description": "this-collection-is-empty"
+  },
+  "dragTabsHereOr": {
+    "message": "Drag tabs here. Or",
+    "description": "drag-tabs-here-or"
+  },
+  "selectFromSession": {
+    "message": "Select from session",
+    "description": "select-from-session"
+  },
+  "selectTabs": {
+    "message": "Select tabs",
+    "description": "select-tabs"
+  },
+  "selectAll": {
+    "message": "Select all",
+    "description": "select-all"
+  },
+  "closeSelectedTabs": {
+    "message": "Close selected tabs",
+    "description": "close-selected-tabs"
+  },
+  "confirm": {
+    "message": "Confirm",
+    "description": "confirm"
+  },
+  "createCollectionsAndTakeControlOfYourBrowserTabs": {
+    "message": "Create Collections and take control of your browser tabs",
+    "description": "create-collections-and-take-control-of-your-browser-tabs"
+  },
+  "firstCollection": {
+    "message": "First Collection",
+    "description": "first-collection"
+  },
+  "enterLicenseKey": {
+    "message": "Enter License Key",
+    "description": "enter-license-key"
+  },
+  "pleaseEnterYourLicenseKeyToActivateTheProVersion": {
+    "message": "Please enter your license key to activate the Pro version.",
+    "description": "please-enter-your-license-key-to-activate-the-pro-version"
+  },
+  "enterYourLicenseKeyHere": {
+    "message": "Enter your license key here",
+    "description": "enter-your-license-key-here"
+  },
+  "verify": {
+    "message": "Verify",
+    "description": "verify"
+  },
+  "activationSuccessful": {
+    "message": "Activation Successful",
+    "description": "activation-successful"
+  },
+  "yourLicenseKeyHasBeenSuccessfullyActivated": {
+    "message": "Your license key has been successfully activated",
+    "description": "your-license-key-has-been-successfully-activated"
+  },
+  "workspacesDeletedSuccessfully": {
+    "message": "All workspaces have been deleted successfully"
+  },
+  "failedToDeleteWorkspaces": {
+    "message": "Failed to delete workspaces"
+  },
+  "collectionsDeletedSuccessfully": {
+    "message": "All collections have been deleted successfully"
+  },
+  "failedToDeleteCollections": {
+    "message": "Failed to delete collections"
+  },
+  "howToConnectToNotion": {
+    "message": "How to connect to Notion",
+    "description": "how-to-connect-to-notion"
+  },
+  "howToConnectToRaindrop": {
+    "message": "How to connect to Raindrop",
+    "description": "how-to-connect-to-raindrop"
+  },
+  "goToRaindropIntegrations": {
+    "message": "Go to",
+    "description": "Text before Raindrop integrations link"
+  },
+  "createNewApp": {
+    "message": "Click on \"Create new app\"",
+    "description": "Step to create new Raindrop app"
+  },
+  "fillAppDetails": {
+    "message": "Fill in the app details and create it",
+    "description": "Step to fill in Raindrop app details"
+  },
+  "findTestToken": {
+    "message": "Find \"Test token\" in your newly created app",
+    "description": "Step to find Raindrop test token"
+  },
+  "copyAndPasteToken": {
+    "message": "Copy the token and paste it here",
+    "description": "Step to copy and paste Raindrop token"
+  },
+  "goToNotionIntegrations": {
+    "message": "Go to",
+    "description": "Text before Notion integrations link"
+  },
+  "createNewIntegration": {
+    "message": "Create a new Internal Integration",
+    "description": "Step to create new Notion integration"
+  },
+  "copyInternalIntegrationSecret": {
+    "message": "Copy the 'Internal Integration Secret'",
+    "description": "Step to copy Notion integration secret"
+  },
+  "createNewDatabase": {
+    "message": "Create a new database in Notion",
+    "description": "Step to create new Notion database"
+  },
+  "shareDatabase": {
+    "message": "Share the database with your integration",
+    "description": "Step to share database with integration"
+  },
+  "openDatabaseFullPage": {
+    "message": "Open the database in full page",
+    "description": "Step to open database in full page"
+  },
+  "copyDatabaseId": {
+    "message": "Copy the database ID from the URL (it's the part after the workspace name and before the '?')",
+    "description": "Step to copy database ID from URL"
+  },
+  "upgradeToProToContinue": {
+    "message": "Upgrade to Pro to continue",
+    "description": "upgrade-to-pro-to-continue"
+  },
+  "collapseGroups": {
+    "message": "Collapse Groups",
+    "description": "collapse-groups"
+  },
+  "expandGroups": {
+    "message": "Expand Groups",
+    "description": "expand-groups"
+  },
+  "collectionsLimitReached": {
+    "message": "Collections limit reached. Upgrade to Pro for unlimited creation.",
+    "description": "Message shown when free user reaches collections limit"
+  },
+  "collectionsLimitReachedForSendThisTab": {
+    "message": "You've reached the collection limit. Get unlimited collections with Pro, or add this tab to an existing one.",
+    "description": "Message shown when free user reaches collections limit"
+  },
+  "tabsGroupedByDomain": {
+    "message": "Tabs grouped by domain",
+    "description": "Success message shown after grouping tabs by domain"
+  },
+  "tabsGroupedByAI": {
+    "message": "Tabs grouped by AI",
+    "description": "Success message shown after grouping tabs by AI"
+  },
+  "aiGroupingLimitReached": {
+    "message": "AI grouping limit reached. Upgrade to Pro for unlimited use.",
+    "description": "Message shown when free user reaches AI grouping limit"
+  },
+  "raindropAccessTokenNotFound": {
+    "message": "Raindrop access token not found. Please go to settings to configure Raindrop connection",
+    "description": "Error message shown when Raindrop access token is not configured"
+  },
+  "notionAccessTokenOrDatabaseNotFound": {
+    "message": "Notion access token or database ID is not set. Please go to settings to configure Notion connection",
+    "description": "Error message shown when Notion access token or database ID is not configured"
+  },
+  "totalTabs": {
+    "message": "Total: $count$ tabs",
+    "description": "Total tabs count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "19"
+      }
+    }
+  },
+  "shortcuts": {
+    "message": "Shortcuts",
+    "description": "shortcuts"
+  },
+  "group_by_ai": {
+    "message": "Group by AI",
+    "description": "group-by-ai"
+  },
+  "open_harbor": {
+    "message": "Open Harbor Main Page",
+    "description": "open-harbor"
+  },
+  "send_all_tabs_to_harbor": {
+    "message": "Send all tabs to Harbor",
+    "description": "send-all-tabs-to-harbor"
+  },
+  "_execute_action": {
+    "message": "Activate Popup(Activate Harbor)",
+    "description": "_execute_action"
+  },
+  "shortcutNotSet": {
+    "message": "Not set"
+  },
+  "changeShortcutsPrefix": {
+    "message": "Change shortcuts in the"
+  },
+  "browserExtensionShortcuts": {
+    "message": "browser extension shortcuts"
+  },
+  "changeShortcutsSuffix": {
+    "message": "page"
+  },
+  "more": {
+    "message": "More",
+    "description": "more"
+  },
+  "sendLeftTabs": {
+    "message": "Send Left Tabs",
+    "description": "Send all tabs to the left of the current tab"
+  },
+  "sendRightTabs": {
+    "message": "Send Right Tabs",
+    "description": "Send all tabs to the right of the current tab"
+  },
+  "sendThisTab": {
+    "message": "Send This Tab",
+    "description": "Send the current tab"
+  },
+  "share": {
+    "message": "Share",
+    "description": "Share"
+  },
+  "manageLicenseKey": {
+    "message": "Manage License Key",
+    "description": "Text for the license key management link"
+  },
+  "publishToWeb": {
+    "message": "Publish to web",
+    "description": "Title for publish dialog"
+  },
+  "publishedSuccessfully": {
+    "message": "Published Successfully",
+    "description": "Title shown after successful publish"
+  },
+  "hereIsTheWebsiteLink": {
+    "message": "🌍 Here is the website link:",
+    "description": "Text shown above the shared URL"
+  },
+  "viewOnlyAccessDescription": {
+    "message": "View-only access is available to anyone with this link, but changes won't sync after sharing.",
+    "description": "Description of view-only access"
+  },
+  "viewSite": {
+    "message": "View Site",
+    "description": "Button text to view the shared site"
+  },
+  "publishing": {
+    "message": "Publishing...",
+    "description": "Text shown while publishing"
+  },
+  "publish": {
+    "message": "Publish",
+    "description": "Button text to publish"
+  },
+  "yourName": {
+    "message": "Your Name",
+    "description": "Label for name input"
+  },
+  "enterYourName": {
+    "message": "Enter your name",
+    "description": "Placeholder for name input"
+  },
+  "nameDisplayDescription": {
+    "message": "This name will be displayed as the owner of the shared content",
+    "description": "Description text below name input"
+  },
+  "socialLink": {
+    "message": "Social Link",
+    "description": "Label for social link input"
+  },
+  "socialLinkDescription": {
+    "message": "Add your social media profile to let viewers connect with you",
+    "description": "Description text below social link input"
+  },
+  "themeColor": {
+    "message": "Theme Color",
+    "description": "Label for theme color picker"
+  },
+  "groupNameLanguage": {
+    "message": "Group Name Language",
+    "description": "Label for group name language"
+  },
+  "systemLanguage": {
+    "message": "System Language",
+    "description": "Label for system language"
+  },
+  "tryNow": {
+    "message": "Try Now",
+    "description": "Try now"
+  },
+  "configureConnectionsToThirdPartyApps": {
+    "message": "Configure connections to third-party apps",
+    "description": "Configure connections to third-party apps"
+  },
+  "configureConnectionsToThirdPartyAppsDescription": {
+    "message": "You can sync the collected tabs to third-party apps for permanent storage",
+    "description": "Configure connections to third-party apps"
+  },
+  "youCanConfigureLaterInSettings": {
+    "message": "You can configure later in settings page",
+    "description": "You can configure later in settings"
+  },
+  "next": {
+    "message": "Next",
+    "description": "Next"
+  },
+  "pinInToolbar": {
+    "message": "Pin in Toolbar",
+    "description": "Pin in Toolbar"
+  },
+  "yourPopupPowerhouse": {
+    "message": "Your Popup Powerhouse",
+    "description": "Your Popup Powerhouse"
+  },
+  "smartTabGroupManagement": {
+    "message": "Smart Tab Group Management, powered by AI",
+    "description": "Feature description for AI-powered tab management"
+  },
+  "deduplicateTabsInWindow": {
+    "message": "Deduplicate tabs in current window",
+    "description": "Feature description for tab deduplication"
+  },
+  "saveTabsToCollections": {
+    "message": "Save tabs to collections instantly",
+    "description": "Feature description for saving tabs to collections"
+  },
+  "speedUpWithShortcuts": {
+    "message": "Speed Up with Shortcuts",
+    "description": "Speed Up with Shortcuts"
+  },
+  "moreFeatures": {
+    "message": "More features",
+    "description": "More features"
+  },
+  "everythingInStarterPlus": {
+    "message": "Everything in Starter, plus:",
+    "description": "Everything in Starter"
+  },
+  "includes": {
+    "message": "Includes:",
+    "description": "Includes"
+  },
+  "shareYourCollectionsWithTheWorld": {
+    "message": "Share your collections and tabs with the world",
+    "description": "Share your collections with the world"
+  },
+  "exploreTextOnboarding": {
+    "message": "Explore",
+    "description": "Explore"
+  },
+  "sendAllTabsIncludingPinned": {
+    "message": "Include pinned ones when sending all tabs to Harbor",
+    "description": "Save all tabs including pinned"
+  },
+  "sendAllTabsIncludingExtensionPages": {
+    "message": "Include extension pages when sending all tabs to Harbor",
+    "description": "Save all tabs including pinned"
+  },
+  "sendAllTabsIncludingGroupedTabs": {
+    "message": "Include grouped tabs when sending all tabs to Harbor",
+    "description": "Send all tabs including grouped tabs"
+  },
+  "aiGroupingAttemptsAvailablePerDay": {
+    "message": "$count$ AI Grouping attempts available per Day",
+    "description": "AI grouping attempts available per day",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "groupTabsByAI": {
+    "message": "Group tabs by AI",
+    "description": "Group tabs by AI"
+  }
+}

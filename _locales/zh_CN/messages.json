@@ -1,0 +1,716 @@
+{
+  "collections": {
+    "message": "收藏集",
+    "description": "Name of the collections."
+  },
+  "settings": {
+    "message": "设置",
+    "description": "Name of the settings."
+  },
+  "importNoun": {
+    "message": "导入",
+    "description": "Name of the import."
+  },
+  "contactUsNoun": {
+    "message": "联系我们",
+    "description": "Name of the contact us."
+  },
+  "support": {
+    "message": "用户支持",
+    "description": "Name of the support."
+  },
+  "helpCenter": {
+    "message": "帮助中心",
+    "description": "Name of the help center."
+  },
+  "autoBackupNoun": {
+    "message": "自动备份",
+    "description": "Name of the autobackup."
+  },
+  "newButtonNoun": {
+    "message": "New",
+    "description": "Name of the new button."
+  },
+  "generalSettingsNoun": {
+    "message": "通用",
+    "description": "Name of the general settings."
+  },
+  "exportingYourData": {
+    "message": "正在导出数据...",
+    "description": "exporting-your-data"
+  },
+  "generalSettingsDescription": {
+    "message": "应用程序的通用设置",
+    "description": "Description of the general settings."
+  },
+  "autoLaunch": {
+    "message": "浏览器启动时显示 Harbor 页面",
+    "description": "Name of the auto launch."
+  },
+  "autoRemoveDuplicates": {
+    "message": "自动移除重复标签页",
+    "description": "Name of the auto remove duplicates."
+  },
+  "autoBackupDescription": {
+    "message": "自动将您的收藏集保存到文件中，便于备份和恢复。",
+    "description": "Description of the auto backup."
+  },
+  "autoBackupEnable": {
+    "message": "启用",
+    "description": "Name of the auto backup enable."
+  },
+  "backupFile": {
+    "message": "备份文件",
+    "description": "Name of the backup file."
+  },
+  "backupFrequency": {
+    "message": "备份频率",
+    "description": "backup-frequency"
+  },
+  "every": {
+    "message": "每",
+    "description": "every"
+  },
+  "enableAutoBackupToSelectBackupFile": {
+    "message": "启用自动备份以选择备份文件",
+    "description": "Description of the enable auto backup to select a backup file."
+  },
+  "allowFileAccessForAutoBackup": {
+    "message": "授权文件访问权限以进行自动备份",
+    "description": "Name of the allow file access for auto-backup."
+  },
+  "createAJsonFileInYourLocalFileFolder": {
+    "message": "在本地文件夹中创建一个 .json 文件",
+    "description": "create-a-json-file-in-your-local-file-folder"
+  },
+  "autoBackupWillSaveYourDataToThisFile": {
+    "message": "自动备份将把您的数据保存到此文件",
+    "description": "auto-backup-will-save-your-data-to-this-file"
+  },
+  "createFile": {
+    "message": "创建文件",
+    "description": "create-file"
+  },
+  "exportData": {
+    "message": "导出数据",
+    "description": "export-data"
+  },
+  "lockWhenPinned": {
+    "message": "置顶收藏集的同时将其锁定",
+    "description": "lock-when-pinned"
+  },
+  "closeTabsWhenSendingToCollections": {
+    "message": "发送到收藏集时关闭标签页",
+    "description": "close-tabs-when-sending-to-collections"
+  },
+  "whenRestoringTabsRemoveTabItemsFromTheCurrentHarborCollection": {
+    "message": "恢复标签页时，从当前 Harbor 收藏集中移除标签项",
+    "description": "when-restoring-tabs-remove-tab-items-from-the-current-harbor-collection"
+  },
+  "openMainPageWhenSendingSingleTab": {
+    "message": "发送单个标签页到收藏集时打开 Harbor 主界面",
+    "description": "open-main-page-when-sending-single-tab"
+  },
+  "deleteAllCollections": {
+    "message": "删除所有收藏集",
+    "description": "delete-all-collections"
+  },
+  "areYouSureYouWantToDeleteAllCollectionsThisActionCannotBeUndone": {
+    "message": "确定要删除所有收藏集吗？此操作无法撤消。",
+    "description": "are-you-sure-you-want-to-delete-all-collections-this-action-cannot-be-undone"
+  },
+  "cancel": {
+    "message": "取消",
+    "description": "cancel"
+  },
+  "delete": {
+    "message": "删除",
+    "description": "delete"
+  },
+  "connectionsSettingsNoun": {
+    "message": "第三方应用",
+    "description": "Name of the connections settings."
+  },
+  "manageYourConnectionsToExternalServices": {
+    "message": "管理您与第三方应用的连接",
+    "description": "manage-your-connections-to-external-services"
+  },
+  "restoreAll": {
+    "message": "全部恢复",
+    "description": "restore-all"
+  },
+  "openInNewWindow": {
+    "message": "在新窗口中恢复",
+    "description": "open-in-new-window"
+  },
+  "rename": {
+    "message": "重命名",
+    "description": "rename"
+  },
+  "unpin": {
+    "message": "取消置顶",
+    "description": "unpin"
+  },
+  "pin": {
+    "message": "置顶",
+    "description": "pin"
+  },
+  "syncToRaindrop": {
+    "message": "同步到 Raindrop",
+    "description": "sync-to-raindrop"
+  },
+  "syncToNotion": {
+    "message": "同步到 Notion",
+    "description": "sync-to-notion"
+  },
+  "newGroup": {
+    "message": "新建分组",
+    "description": "new-group"
+  },
+  "groupByAI": {
+    "message": "AI 分组",
+    "description": "group-by-ai"
+  },
+  "groupByDomain": {
+    "message": "域名分组",
+    "description": "group-by-domain"
+  },
+  "ungroup": {
+    "message": "取消分组",
+    "description": "ungroup"
+  },
+  "importDialogTitle": {
+    "message": "导入",
+    "description": "import-dialog-title"
+  },
+  "fromHarbor": {
+    "message": "从 Harbor 导入",
+    "description": "from-harbor"
+  },
+  "fromRaindrop": {
+    "message": "从 Raindrop 导入",
+    "description": "from-raindrop"
+  },
+  "openTheOneTabPage": {
+    "message": "打开 OneTab 页面",
+    "description": "open-the-onetab-page"
+  },
+  "navigateToTheOneTabExtensionInYourBrowser": {
+    "message": "在浏览器中导航到 OneTab 扩展",
+    "description": "navigate-to-the-onetab-extension-in-your-browser"
+  },
+  "exportAndCopyContent": {
+    "message": "导出并复制内容",
+    "description": "export-and-copy-content"
+  },
+  "clickOnTheExportButtonThenCopyTheExportedContent": {
+    "message": "点击导出按钮，然后复制导出的内容",
+    "description": "click-on-the-export-button-then-copy-the-exported-content"
+  },
+  "pasteOneTabDataHere": {
+    "message": "在此处粘贴 OneTab 数据",
+    "description": "paste-onetab-data-here"
+  },
+  "clickToImport": {
+    "message": "点击导入",
+    "description": "click-to-import"
+  },
+  "orDragAndDrop": {
+    "message": "或拖放",
+    "description": "or-drag-and-drop"
+  },
+  "jsonFile": {
+    "message": "JSON 文件",
+    "description": "json-file"
+  },
+  "importFromOneTab": {
+    "message": "从 OneTab 导入",
+    "description": "import-from-onetab"
+  },
+  "importFromHarbor": {
+    "message": "从 Harbor 导入",
+    "description": "import-from-harbor"
+  },
+  "importFromHarborJsonFile": {
+    "message": "从 Harbor JSON 文件导入",
+    "description": "import-from-harbor-json-file"
+  },
+  "ungroupTabs": {
+    "message": "取消分组",
+    "description": "ungroup-tabs"
+  },
+  "deduplicateTabs": {
+    "message": "标签页去重",
+    "description": "deduplicate-tabs"
+  },
+  "sendAllTabs": {
+    "message": "发送所有标签页",
+    "description": "send-all-tabs"
+  },
+  "sendGroup": {
+    "message": "发送分组",
+    "description": "send-group"
+  },
+  "newCollection": {
+    "message": "新建收藏集",
+    "description": "new-collection"
+  },
+  "displayHarbor": {
+    "message": "显示主界面",
+    "description": "display-harbor"
+  },
+  "ifYouEncounterAnyIssuesPleaseContactGetharborOutlookCom": {
+    "message": "如果您遇到任何问题，请联系 support@sanvalley.studio",
+    "description": "if-you-encounter-any-issues-please-contact-getharbor-outlook-com"
+  },
+  "goProNow": {
+    "message": "立即升级 Pro",
+    "description": "go-pro-now"
+  },
+  "restorePurchase": {
+    "message": "恢复购买",
+    "description": "restore-purchase"
+  },
+  "upgradeToPro": {
+    "message": "升级到 Pro",
+    "description": "upgrade-to-pro"
+  },
+  "upgradeToProDescription": {
+    "message": "创建无限收藏集并使用高级功能（分享为网站、AI 分组、同步到 Notion 等）。",
+    "description": "upgrade-to-pro-description"
+  },
+  "earlyBird": {
+    "message": "早鸟优惠",
+    "description": "early-bird"
+  },
+  "getTheLifetimeDeal": {
+    "message": "一次购买，永久使用",
+    "description": "get-the-lifetime-deal"
+  },
+  "pricing": {
+    "message": "定价",
+    "description": "pricing"
+  },
+  "createUpTo": {
+    "message": "最多创建",
+    "description": "create-up-to"
+  },
+  "thecollections": {
+    "message": "个收藏集",
+    "description": "collections"
+  },
+  "accessBasicTabManagementFeatures": {
+    "message": "使用基础标签页管理功能",
+    "description": "access-basic-tab-management-features"
+  },
+  "automaticBackup": {
+    "message": "自动备份",
+    "description": "automatic-backup"
+  },
+  "importAndExportFeatures": {
+    "message": "导入导出功能",
+    "description": "import-and-export-features"
+  },
+  "allFreeFeatures": {
+    "message": "所有免费功能",
+    "description": "all-free-features"
+  },
+  "useOnUpTo2Devices": {
+    "message": "可在 2 台设备上使用 Pro 权限",
+    "description": "use-on-up-to-2-devices"
+  },
+  "unlimitedCollectionCreation": {
+    "message": "无限制创建收藏集",
+    "description": "unlimited-collection-creation"
+  },
+  "unlimitedAIPoweredTabGroupingFeature": {
+    "message": "无限制使用 AI 标签页分组功能",
+    "description": "unlimited-ai-powered-tab-grouping-feature"
+  },
+  "syncTabsToThirdPartyApps": {
+    "message": "同步标签页到第三方应用（Notion、Raindrop）",
+    "description": "sync-tabs-to-third-party-apps"
+  },
+  "thisCollectionIsEmpty": {
+    "message": "这个收藏集是空的",
+    "description": "this-collection-is-empty"
+  },
+  "dragTabsHereOr": {
+    "message": "拖拽标签页到这里，或者",
+    "description": "drag-tabs-here-or"
+  },
+  "selectFromSession": {
+    "message": "从会话中选择",
+    "description": "select-from-session"
+  },
+  "selectTabs": {
+    "message": "选择标签页",
+    "description": "select-tabs"
+  },
+  "selectAll": {
+    "message": "全选",
+    "description": "select-all"
+  },
+  "closeSelectedTabs": {
+    "message": "关闭选中的标签页",
+    "description": "close-selected-tabs"
+  },
+  "confirm": {
+    "message": "确认",
+    "description": "confirm"
+  },
+  "createCollectionsAndTakeControlOfYourBrowserTabs": {
+    "message": "创建收藏集并掌控您的浏览器标签页",
+    "description": "create-collections-and-take-control-of-your-browser-tabs"
+  },
+  "firstCollection": {
+    "message": "立即创建",
+    "description": "first-collection"
+  },
+  "enterLicenseKey": {
+    "message": "输入许可证密钥",
+    "description": "enter-license-key"
+  },
+  "pleaseEnterYourLicenseKeyToActivateTheProVersion": {
+    "message": "请输入您的许可证密钥以激活 Pro 版本",
+    "description": "please-enter-your-license-key-to-activate-the-pro-version"
+  },
+  "enterYourLicenseKeyHere": {
+    "message": "在此输入您的许可证密钥",
+    "description": "enter-your-license-key-here"
+  },
+  "verify": {
+    "message": "激活",
+    "description": "verify"
+  },
+  "activationSuccessful": {
+    "message": "激活成功",
+    "description": "activation-successful"
+  },
+  "yourLicenseKeyHasBeenSuccessfullyActivated": {
+    "message": "您的许可证密钥已成功激活",
+    "description": "your-license-key-has-been-successfully-activated"
+  },
+  "workspacesDeletedSuccessfully": {
+    "message": "所有工作区已成功删除"
+  },
+  "failedToDeleteWorkspaces": {
+    "message": "删除工作区失败"
+  },
+  "collectionsDeletedSuccessfully": {
+    "message": "所有收藏夹已成功删除"
+  },
+  "failedToDeleteCollections": {
+    "message": "删除收藏夹失败"
+  },
+  "howToConnectToNotion": {
+    "message": "如何连接 Notion"
+  },
+  "howToConnectToRaindrop": {
+    "message": "如何连接 Raindrop"
+  },
+  "goToNotionIntegrations": {
+    "message": "前往",
+    "description": "Text before Notion integrations link"
+  },
+  "createNewIntegration": {
+    "message": "创建新的 Internal Integration",
+    "description": "Step to create new Notion integration"
+  },
+  "copyInternalIntegrationSecret": {
+    "message": "复制「Internal Integration Secret」",
+    "description": "Step to copy Notion integration secret"
+  },
+  "createNewDatabase": {
+    "message": "在 Notion 中创建新数据库",
+    "description": "Step to create new Notion database"
+  },
+  "shareDatabase": {
+    "message": "将你的 Database 与刚创建的 Integration 共享",
+    "description": "Step to share database with integration"
+  },
+  "openDatabaseFullPage": {
+    "message": "在完整页面中打开数据库",
+    "description": "Step to open database in full page"
+  },
+  "copyDatabaseId": {
+    "message": "从 URL 中复制 Database ID（位于工作区名称之后、'?'之前的部分）",
+    "description": "Step to copy database ID from URL"
+  },
+  "goToRaindropIntegrations": {
+    "message": "前往",
+    "description": "Text before Raindrop integrations link"
+  },
+  "createNewApp": {
+    "message": "点击「创建新应用」",
+    "description": "Step to create new Raindrop app"
+  },
+  "fillAppDetails": {
+    "message": "填写应用详情并创建",
+    "description": "Step to fill in Raindrop app details"
+  },
+  "findTestToken": {
+    "message": "在新创建的应用中找到「Test token」",
+    "description": "Step to find Raindrop test token"
+  },
+  "copyAndPasteToken": {
+    "message": "复制 Test Token 并粘贴到此处",
+    "description": "Step to copy and paste Raindrop token"
+  },
+  "upgradeToProToContinue": {
+    "message": "升级到 Pro 以继续",
+    "description": "upgrade-to-pro-to-continue"
+  },
+  "collapseGroups": {
+    "message": "折叠分组",
+    "description": "collapse-groups"
+  },
+  "expandGroups": {
+    "message": "展开分组",
+    "description": "expand-groups"
+  },
+  "collectionsLimitReached": {
+    "message": "已达到收藏集数量上限。升级到 Pro 版本可无限创建。",
+    "description": "Message shown when free user reaches collections limit"
+  },
+  "collectionsLimitReachedForSendThisTab": {
+    "message": "已达到收藏集上限。升级到 Pro 版本可无限创建，或将标签页添加到现有收藏集。",
+    "description": "Message shown when free user reaches collections limit"
+  },
+  "tabsGroupedByDomain": {
+    "message": "标签页已按域名分组",
+    "description": "Success message shown after grouping tabs by domain"
+  },
+  "tabsGroupedByAI": {
+    "message": "标签页已按 AI 分组",
+    "description": "Success message shown after grouping tabs by AI"
+  },
+  "aiGroupingLimitReached": {
+    "message": "已达到 AI 分组使用次数上限。升级到 Pro 版本可无限使用。",
+    "description": "Message shown when free user reaches AI grouping limit"
+  },
+  "raindropAccessTokenNotFound": {
+    "message": "未找到 Raindrop token, 请前往设置页面配置 Raindrop 连接",
+    "description": "Error message shown when Raindrop access token is not configured"
+  },
+  "notionAccessTokenOrDatabaseNotFound": {
+    "message": "未设置 Notion 访问令牌或数据库 ID, 请前往设置页面配置 Notion 连接",
+    "description": "Error message shown when Notion access token or database ID is not configured"
+  },
+  "totalTabs": {
+    "message": "总计: $count$ 个标签页",
+    "description": "Total tabs count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "19"
+      }
+    }
+  },
+  "shortcuts": {
+    "message": "键盘快捷键",
+    "description": "shortcuts"
+  },
+  "group_by_ai": {
+    "message": "AI 分组",
+    "description": "group-by-ai"
+  },
+  "open_harbor": {
+    "message": "打开 Harbor 页面",
+    "description": "open-harbor"
+  },
+  "send_all_tabs_to_harbor": {
+    "message": "发送所有标签页到 Harbor",
+    "description": "send-all-tabs-to-harbor"
+  },
+  "_execute_action": {
+    "message": "唤起 Popup 弹窗(激活 Harbor)",
+    "description": "_execute_action"
+  },
+  "shortcutNotSet": {
+    "message": "未设置"
+  },
+  "changeShortcutsPrefix": {
+    "message": "在"
+  },
+  "browserExtensionShortcuts": {
+    "message": "浏览器扩展快捷键"
+  },
+  "changeShortcutsSuffix": {
+    "message": "页面中更改快捷键"
+  },
+  "more": {
+    "message": "更多",
+    "description": "more"
+  },
+  "sendLeftTabs": {
+    "message": "发送左侧标签页",
+    "description": "Send all tabs to the left of the current tab"
+  },
+  "sendRightTabs": {
+    "message": "发送右侧标签页",
+    "description": "Send all tabs to the right of the current tab"
+  },
+  "sendThisTab": {
+    "message": "发送当前标签页",
+    "description": "Send the current tab"
+  },
+  "share": {
+    "message": "分享",
+    "description": "Share"
+  },
+  "manageLicenseKey": {
+    "message": "密钥管理",
+    "description": "Text for the license key management link"
+  },
+  "publishToWeb": {
+    "message": "发布到网络",
+    "description": "Title for publish dialog"
+  },
+  "publishedSuccessfully": {
+    "message": "发布成功",
+    "description": "Title shown after successful publish"
+  },
+  "hereIsTheWebsiteLink": {
+    "message": "🌍 以下是网站链接：",
+    "description": "Text shown above the shared URL"
+  },
+  "viewOnlyAccessDescription": {
+    "message": "任何人都可以访问此链接（只读），但分享后的更改不会同步。",
+    "description": "Description of view-only access"
+  },
+  "viewSite": {
+    "message": "查看网站",
+    "description": "Button text to view the shared site"
+  },
+  "publishing": {
+    "message": "正在发布...",
+    "description": "Text shown while publishing"
+  },
+  "publish": {
+    "message": "发布",
+    "description": "Button text to publish"
+  },
+  "yourName": {
+    "message": "用户名",
+    "description": "Label for name input"
+  },
+  "enterYourName": {
+    "message": "输入您的用户名",
+    "description": "Placeholder for name input"
+  },
+  "nameDisplayDescription": {
+    "message": "此用户名将作为分享内容的所有者展示",
+    "description": "Description text below name input"
+  },
+  "socialLink": {
+    "message": "社交链接",
+    "description": "Label for social link input"
+  },
+  "socialLinkDescription": {
+    "message": "添加您的社交媒体个人资料，让访问者能够与您联系",
+    "description": "Description text below social link input"
+  },
+  "themeColor": {
+    "message": "主题颜色",
+    "description": "Label for theme color picker"
+  },
+  "groupNameLanguage": {
+    "message": "分组名称语言",
+    "description": "Label for group name language"
+  },
+  "systemLanguage": {
+    "message": "跟随系统语言",
+    "description": "Label for system language"
+  },
+  "tryNow": {
+    "message": "立即试用",
+    "description": "Try now"
+  },
+  "configureConnectionsToThirdPartyApps": {
+    "message": "配置与第三方应用的链接",
+    "description": "Configure connections to third-party apps"
+  },
+  "configureConnectionsToThirdPartyAppsDescription": {
+    "message": "您可以将收集的 Tabs 同步到第三方应用，以便永久存储",
+    "description": "Configure connections to third-party apps"
+  },
+  "youCanConfigureLaterInSettings": {
+    "message": "您可以在稍后在设置页面中配置",
+    "description": "You can configure later in settings"
+  },
+  "next": {
+    "message": "下一步",
+    "description": "Next"
+  },
+  "pinInToolbar": {
+    "message": "在工具栏中固定",
+    "description": "Pin in Toolbar"
+  },
+  "yourPopupPowerhouse": {
+    "message": "在悬浮窗中一键管理标签页",
+    "description": "Your Popup Powerhouse"
+  },
+  "smartTabGroupManagement": {
+    "message": "AI 智能标签页分组管理",
+    "description": "Feature description for AI-powered tab management"
+  },
+  "deduplicateTabsInWindow": {
+    "message": "一键去除当前窗口重复标签页",
+    "description": "Feature description for tab deduplication"
+  },
+  "saveTabsToCollections": {
+    "message": "快速保存标签页到收藏集",
+    "description": "Feature description for saving tabs to collections"
+  },
+  "speedUpWithShortcuts": {
+    "message": "快捷键,效率加倍",
+    "description": "Speed Up with Shortcuts"
+  },
+  "moreFeatures": {
+    "message": "更多功能",
+    "description": "More features"
+  },
+  "includes": {
+    "message": "包括:",
+    "description": "Includes"
+  },
+  "everythingInStarterPlus": {
+    "message": "所有 Starter 权益，外加:",
+    "description": "Everything in Pro"
+  },
+  "shareYourCollectionsWithTheWorld": {
+    "message": "将您的收藏集和标签页分享给他人",
+    "description": "Share your collections with the world"
+  },
+  "exploreTextOnboarding": {
+    "message": "即刻探索",
+    "description": "Explore"
+  },
+  "sendAllTabsIncludingPinned": {
+    "message": "发送所有标签页时包含固定标签页",
+    "description": "Send all tabs including pinned"
+  },
+  "sendAllTabsIncludingExtensionPages": {
+    "message": "发送所有标签页时包含扩展页面",
+    "description": "Send all tabs including extension pages"
+  },
+  "sendAllTabsIncludingGroupedTabs": {
+    "message": "发送所有标签页时包含已分组标签页",
+    "description": "Send all tabs including grouped tabs"
+  },
+  "aiGroupingAttemptsAvailablePerDay": {
+    "message": "每天 $count$ 次 AI 分组限额",
+    "description": "Total tabs count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "groupTabsByAI": {
+    "message": "AI 标签页分组",
+    "description": "Group tabs by AI"
+  }
+}
