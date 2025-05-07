@@ -1,0 +1,38 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/universal
+{
+	"name": "Default Linux Universal",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"amazonwebservices.amazon-q-vscode",
+				"Augment.vscode-augment",
+				"saoudrizwan.claude-dev",
+				"sourcegraph.cody-ai",
+				"keploy.keployio",
+				"kilocode.kilo-code",
+				"smallcloud.codify",
+				"RooVeterinaryInc.roo-cline",
+				"IBM.wca-core",
+				"PurecodeAI.purecode-ai"
+			]
+		}
+	}
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
