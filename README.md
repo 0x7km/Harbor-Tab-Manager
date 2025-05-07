@@ -1,42 +1,111 @@
-# Harbor - AI-Powered Tab Manager
+# Harbor - AI-Powered Tab Manager for Efficient Browser Organization
 
-Harbor is an AI-powered tab manager Chrome extension that helps you organize your browser tabs efficiently using a Kanban view. It features smart grouping capabilities and allows you to share your tab collections with others.
+Harbor is a browser extension that helps users efficiently organize and manage their tabs using AI-powered grouping and a Kanban-style interface. The extension automatically categorizes tabs, removes duplicates, and provides seamless integration with third-party services like Notion and Raindrop.
 
-## Features
+Harbor addresses the common problem of tab overload by providing intelligent tab management features. The extension uses AI to automatically group related tabs, allows users to create collections for better organization, and supports both automatic and manual tab management workflows. With features like automatic duplicate removal, customizable backup options, and multi-language support (English, Spanish, and Chinese), Harbor helps users maintain a clean and productive browsing environment.
 
-- **AI-Powered Tab Grouping**: Automatically organize your tabs into logical groups
-- **Kanban View**: Visualize and manage your tabs in a Kanban board interface
-- **Tab Sharing**: Share your organized tab collections with others
-- **Keyboard Shortcuts**:
-  - `Alt+H` (or `Option+H` on Mac): Open Harbor Main Page
-  - `Alt+G` (or `Option+G` on Mac): Group tabs by AI
-  - `Alt+Q` (or `Option+Q` on Mac): Send all tabs to Harbor
-  - `Alt+B` (or `Option+B` on Mac): Execute default action
+## Repository Structure
+```
+.
+├── _locales/                 # Localization files for multiple languages
+│   ├── en/                  # English translations
+│   ├── es/                  # Spanish translations
+│   └── zh_CN/              # Chinese translations
+├── _metadata/               # Extension metadata and verification files
+├── manifest.json           # Chrome extension manifest configuration
+├── popup.html             # Extension popup interface
+├── static/                # Static assets and background scripts
+│   └── background/        # Background service worker scripts
+└── tabs/                  # Tab management interface files
+    ├── harbor.html       # Main Harbor interface
+    └── welcome.html      # Welcome/onboarding page
+```
 
-## Installation
+## Usage Instructions
+### Prerequisites
+- Google Chrome browser (latest version recommended)
+- Sufficient permissions for tab management and storage access
+- Active internet connection for AI-powered features
 
-### From Chrome Web Store
-1. Visit the [Harbor Chrome Web Store page](https://chrome.google.com/webstore/detail/harbor-ai-powered-tab-manager)
-2. Click "Add to Chrome"
-3. Confirm the installation
+### Installation
+1. **Chrome Web Store Installation**
+```bash
+# Visit the Chrome Web Store and search for "Harbor - AI-Powered Tab Manager"
+# Click "Add to Chrome" to install the extension
+```
 
-### Manual Installation (Developer Mode)
-1. Download or clone this repository
-2. Open Chrome and navigate to `chrome://extensions/`
-3. Enable "Developer mode" in the top-right corner
-4. Click "Load unpacked" and select the directory containing this extension
+2. **Developer Installation**
+```bash
+# Clone the repository
+git clone [repository-url]
 
-## Usage
+# Load unpacked extension in Chrome
+1. Open Chrome and navigate to chrome://extensions/
+2. Enable "Developer mode"
+3. Click "Load unpacked" and select the repository folder
+```
 
-1. Click on the Harbor icon in your browser toolbar or use the keyboard shortcut `Alt+H` to open the main interface
-2. Use the AI grouping feature (`Alt+G`) to automatically organize your open tabs
-3. Drag and drop tabs between columns in the Kanban view to manually organize them
-4. Share your tab collections with others using the share feature
+### Quick Start
+1. Click the Harbor icon in your browser toolbar to open the popup interface
+2. Use Alt+H (or Option+H on Mac) to open the main Harbor interface
+3. Drag and drop tabs into collections for organization
+4. Use Alt+G (or Option+G on Mac) to trigger AI-powered tab grouping
 
-## Contact
+### More Detailed Examples
+1. **Creating Tab Collections**
+```javascript
+// Right-click on any tab and select "Send to Harbor"
+// Or use Alt+Q (Option+Q on Mac) to send all tabs to Harbor
+```
 
-For support or inquiries, contact: clarkzsd@gmail.com
+2. **AI-Powered Tab Grouping**
+```javascript
+// Select tabs you want to group
+// Click "Group by AI" or use Alt+G shortcut
+// Harbor will automatically categorize tabs based on content
+```
 
-## License
+3. **Integration with Third-Party Services**
+```javascript
+// Navigate to Settings > Integrations
+// Connect with Notion or Raindrop
+// Use "Sync to [Service]" option in tab context menu
+```
 
-This project is proprietary software. All rights reserved.
+### Troubleshooting
+1. **AI Grouping Not Working**
+- Verify internet connection
+- Check remaining AI grouping usage in free tier
+- Ensure proper permissions are granted
+
+2. **Auto-Backup Issues**
+- Check file access permissions
+- Verify backup file path is correct
+- Ensure sufficient storage space
+
+3. **Performance Optimization**
+- Enable "Auto Remove Duplicates" in settings
+- Use collections to organize tabs
+- Regularly clean up unused collections
+
+## Data Flow
+Harbor processes tab data through a pipeline of collection, organization, and synchronization steps. The extension manages tab metadata locally while leveraging cloud services for AI-powered features and third-party integrations.
+
+```ascii
+[Browser Tabs] -> [Harbor Extension] -> [Local Storage]
+                        |                     |
+                        v                     v
+                [AI Grouping API] <- [Tab Collections]
+                        |                     |
+                        v                     v
+                [Third-Party Services] <- [Backup Files]
+```
+
+Key Component Interactions:
+1. Background service worker monitors tab creation and updates
+2. Popup interface provides quick access to common actions
+3. Main Harbor interface manages collections and groups
+4. AI service processes tab content for intelligent grouping
+5. Local storage maintains user preferences and collection data
+6. Backup system periodically saves collections to local files
+7. Integration layer syncs data with third-party services
